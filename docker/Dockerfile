@@ -1,16 +1,9 @@
-FROM       cyberdojofoundation/clangplusplus:4.0.0
-MAINTAINER Jon Jagger <jon@jaggersoft.com>
+FROM  cyberdojofoundation/clangplusplus:4.0.0
+LABEL maintainer=jon@jaggersoft.com
 
-RUN apt-get update && apt-get -y install wget cmake unzip
+ADD install.sh /
 
-RUN wget https://github.com/cgreen-devs/cgreen/archive/master.zip \
-  && unzip master.zip \
-  && rm master.zip \
-  && cd cgreen-master \
-  && mkdir build \
-  && cd build \
-  && cmake -DCGREEN_WITH_CXX:bool=ON .. \
-  && make \
-  && make install
+RUN /install.sh && \
+    rm -f /install.sh
 
 COPY red_amber_green.rb /usr/local/bin
