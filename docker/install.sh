@@ -2,7 +2,7 @@
 set -e
 
 apt-get update
-apt-get --yes install wget cmake unzip
+apt-get install --yes wget cmake unzip
 
 wget https://github.com/cgreen-devs/cgreen/archive/master.zip
 unzip master.zip
