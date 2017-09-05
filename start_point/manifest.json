@@ -1,4 +1,6 @@
 {
+  "display_name": "C++ (clang++), Cgreen",
+
   "visible_filenames": [
       "Hiker.cpp",
       "Hiker.hpp",
@@ -7,12 +9,11 @@
       "cyber-dojo.sh"
   ],
 
-  "filename_extension": ".cpp",
+  "image_name": "cyberdojofoundation/clangpp_cgreen",
 
-  "display_name": "C++ (clang++), Cgreen",
+  "filename_extension": ".cpp",
 
   "tab_size": 4,
 
-  "image_name": "cyberdojofoundation/clangpp_cgreen"
-
+  "runner_choice": "stateless"
 }
