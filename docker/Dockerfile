@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/clangplusplus:4.0.0
+FROM  cyberdojofoundation/clangplusplus:5.0.1
 LABEL maintainer=jon@jaggersoft.com
 
 ADD install.sh /
