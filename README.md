@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/clangplusplus-cgreen.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/clangplusplus-cgreen)
+[![Github Action (master)] (https://github.com/cyber-dojo-languages/clangplusplus-cgreen/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/clangplusplus-cgreen/actions)
 
 ## display_name="C++ (clang++), Cgreen"
 ## image_name="cyberdojofoundation/clangpp_cgreen"
